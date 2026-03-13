@@ -230,9 +230,7 @@ function normalizeOptions(opts) {
         noMove: (opts.noMove === null) ? undefined : opts.noMove,
         isLocked: (opts.isLocked === null) ? undefined : opts.isLocked,
         id: (opts.id === null) ? undefined : opts.id,
-        content: (opts.content === null) ? undefined : opts.content,
-        subGridDynamic: (opts.subGridDynamic === null) ? undefined : opts.subGridDynamic,
-        subGridOpts: (opts.subGridOpts === null) ? undefined : normalizeOptions(opts.subGridOpts),
+        content: (opts.content === null) ? undefined : opts.content
     };
 }
 

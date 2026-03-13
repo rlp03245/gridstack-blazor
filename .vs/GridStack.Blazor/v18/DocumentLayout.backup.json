@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\rlp03245\\source\\repos\\gridstack-blazor\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{EE47F902-692A-4FC4-89A2-F76A2EE60069}|GridStack.Blazor\\GridStack.Blazor.csproj|c:\\users\\rlp03245\\source\\repos\\gridstack-blazor\\gridstack.blazor\\gsgrid.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE47F902-692A-4FC4-89A2-F76A2EE60069}|GridStack.Blazor\\GridStack.Blazor.csproj|solutionrelative:gridstack.blazor\\gsgrid.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE47F902-692A-4FC4-89A2-F76A2EE60069}|GridStack.Blazor\\GridStack.Blazor.csproj|c:\\users\\rlp03245\\source\\repos\\gridstack-blazor\\gridstack.blazor\\wwwroot\\gridstack_interop.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{EE47F902-692A-4FC4-89A2-F76A2EE60069}|GridStack.Blazor\\GridStack.Blazor.csproj|solutionrelative:gridstack.blazor\\wwwroot\\gridstack_interop.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,32 +34,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GsGrid.razor.cs",
-              "DocumentMoniker": "C:\\Users\\rlp03245\\source\\repos\\gridstack-blazor\\GridStack.Blazor\\GsGrid.razor.cs",
-              "RelativeDocumentMoniker": "GridStack.Blazor\\GsGrid.razor.cs",
-              "ToolTip": "C:\\Users\\rlp03245\\source\\repos\\gridstack-blazor\\GridStack.Blazor\\GsGrid.razor.cs",
-              "RelativeToolTip": "GridStack.Blazor\\GsGrid.razor.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAG0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T20:51:57.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "gridstack_interop.js",
-              "DocumentMoniker": "C:\\Users\\rlp03245\\source\\repos\\gridstack-blazor\\GridStack.Blazor\\wwwroot\\gridstack_interop.js",
-              "RelativeDocumentMoniker": "GridStack.Blazor\\wwwroot\\gridstack_interop.js",
-              "ToolTip": "C:\\Users\\rlp03245\\source\\repos\\gridstack-blazor\\GridStack.Blazor\\wwwroot\\gridstack_interop.js",
-              "RelativeToolTip": "GridStack.Blazor\\wwwroot\\gridstack_interop.js",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAHQAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-03-03T20:40:57.049Z",
-              "EditorCaption": ""
             }
           ]
         }
