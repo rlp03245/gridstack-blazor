@@ -1,21 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
-
-    <PropertyGroup>
-        <TargetFramework>net10.0</TargetFramework>
-        <Nullable>enable</Nullable>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <RootNamespace>GridStack.Blazor.Demo</RootNamespace>
-		<DisableStaticWebAssetsFastUpToDateCheck>true</DisableStaticWebAssetsFastUpToDateCheck>
-    </PropertyGroup>
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
     <ItemGroup>
-        <ProjectReference Include="..\Gridstack.Blazor.Demo.Client\Gridstack.Blazor.Demo.Client.csproj" />
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.3" />
+      <ProjectReference Include="..\..\GridStack.Blazor\GridStack.Blazor.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <_ContentIncludedByDefault Remove="wwwroot\bootstrap\bootstrap.min.css" />
-      <_ContentIncludedByDefault Remove="wwwroot\bootstrap\bootstrap.min.css.map" />
+        <PackageReference Include="Blazor-ApexCharts" Version="6.1.0" />
     </ItemGroup>
 
+    <ItemGroup>
+        <None Include="wwwroot\lib\gridstack-all.js" />
+        <None Include="wwwroot\lib\gridstack.min.css" />
+    </ItemGroup>
+    
 </Project>

@@ -1,3 +1,5 @@
+// noinspection JSUnresolvedReference
+
 let allowDrop = false;
 
 export function init(gridOptions, interopReference, optionsInteropReference) {
@@ -67,10 +69,6 @@ export function setupDragIn(dragIn, draggableOptions, widgets, interopReference,
             options.scroll = draggableOptions.scroll;
         }
     }
-
-    //const options = {
-    //    helper: 'clone'
-    //};
 
     window.GridStack.setupDragIn(dragIn, options, widgets);
 }
@@ -220,7 +218,7 @@ function getWidgetById(id) {
 }
 
 /**
- * Properties not explicitly set in C# are still passed as a null value to Javascript,
+ * Properties not explicitly set in C# are still passed as a null value to JavaScript,
  * as there is no such concept of 'undefined' in C#.
  * In some cases, the behavior of the gridstack library differs between providing null
  * or undefined. This function sets each option explicitly to undefined when passed as null,

@@ -1,11 +1,11 @@
-@page "/demo3"
+@page "/demo4"
+@using Microsoft.AspNetCore.Components.Web
 
-<PageTitle>Demo 3: Responsive with ColumnWidth</PageTitle>
-
+<PageTitle>Demo 4: Responsive with Breakpoints</PageTitle>
 
 <div class="page">
     <div class="title">
-        <h3>Demo 3: Responsive with ColumnWidth</h3>
+        <h3>Demo 4: Responsive with Breakpoints</h3>
     </div>
     
     <div class="header">
@@ -58,8 +58,31 @@
         MinRow = 1,
         ColumnOpts = new GsResponsive()
         {
-            ColumnMax = 12,
-            ColumnWidth = 250,
+            BreakpointForWindow = false,
+            Breakpoints =
+            [
+                new GsBreakpoint()
+                {
+                    W = 1200,
+                    C = 6,
+                },
+                new GsBreakpoint()
+                {
+                    W = 900,
+                    C = 4,
+                },
+                new GsBreakpoint()
+                {
+                    W = 600,
+                    C = 3,
+                },
+                new GsBreakpoint()
+                {
+                    W = 400,
+                    C = 1,
+                    Layout = GsColumn.List
+                }
+            ]
         }
     };
 

@@ -5,19 +5,25 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <base href="/"/>
-    <link rel="stylesheet" href="app.css"/>
 
-    <link href="lib/gridstack.min.css" rel="stylesheet"/>
+    <!-- stylesheets - gridstack -->
+    <link href="@Assets["_content/GridStack.Blazor.Demo/lib/gridstack.min.css"]" rel="stylesheet" />
 
-    <link rel="stylesheet" href="GridStack.Blazor.Demo.Server.styles.css"/>
+    <link rel="stylesheet" href="@Assets["app.css"]"/>
+    <link rel="stylesheet" href="@Assets["GridStack.Blazor.Demo.Server.styles.css"]"/>
+    
     <link rel="icon" type="image/png" href="favicon.png"/>
-    <HeadOutlet @rendermode="InteractiveServer"/>
+    <HeadOutlet/>
 </head>
 
 <body>
-    <Routes @rendermode="InteractiveServer" />
-    <script src="lib/gridstack-all.js"></script>
-    <script src="_framework/blazor.web.js"></script>
+<Routes @rendermode="InteractiveServer"/>
+<ReconnectModal/>
+
+    <!-- scripts - gridstack -->
+    <script src="@Assets["_content/GridStack.Blazor.Demo/lib/gridstack-all.js"]"></script>
+    
+    <script src="@Assets["_framework/blazor.web.js"]"></script>
 </body>
 
 </html>

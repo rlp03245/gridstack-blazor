@@ -12,13 +12,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Files", "_Files", "{1A376D
 		LICENSE = LICENSE
 		pack.sh = pack.sh
 		README.md = README.md
+		Directory.Build.props = Directory.Build.props
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridStack.Blazor.Demo", "GridStack.Blazor.Demo\GridStack.Blazor.Demo\GridStack.Blazor.Demo.csproj", "{139CF79F-A568-4CA4-B86F-2C3ABE7538DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridStack.Blazor.Demo.Client", "GridStack.Blazor.Demo\GridStack.Blazor.Demo.Client\GridStack.Blazor.Demo.Client.csproj", "{C64B29E4-C470-41F5-8F2F-3CFC50CB7F6A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridStack.Blazor.Demo.Server", "GridStack.Blazor.Demo\GridStack.Blazor.Demo.Server\GridStack.Blazor.Demo.Server.csproj", "{2AED78BC-2E31-4EBC-992F-0050E3272401}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Demo", "_Demo", "{451ECD84-2A83-4878-9B69-E9E98149082A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridStack.Blazor.Demo", "GridStack.Blazor.Demo\GridStack.Blazor.Demo\GridStack.Blazor.Demo.csproj", "{BC144206-A1A0-4E65-A1CE-03787DAB7314}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,10 +33,6 @@ Global
 		{EE47F902-692A-4FC4-89A2-F76A2EE60069}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE47F902-692A-4FC4-89A2-F76A2EE60069}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE47F902-692A-4FC4-89A2-F76A2EE60069}.Release|Any CPU.Build.0 = Release|Any CPU
-		{139CF79F-A568-4CA4-B86F-2C3ABE7538DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{139CF79F-A568-4CA4-B86F-2C3ABE7538DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{139CF79F-A568-4CA4-B86F-2C3ABE7538DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{139CF79F-A568-4CA4-B86F-2C3ABE7538DE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C64B29E4-C470-41F5-8F2F-3CFC50CB7F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C64B29E4-C470-41F5-8F2F-3CFC50CB7F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C64B29E4-C470-41F5-8F2F-3CFC50CB7F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -42,11 +41,20 @@ Global
 		{2AED78BC-2E31-4EBC-992F-0050E3272401}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AED78BC-2E31-4EBC-992F-0050E3272401}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AED78BC-2E31-4EBC-992F-0050E3272401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC144206-A1A0-4E65-A1CE-03787DAB7314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC144206-A1A0-4E65-A1CE-03787DAB7314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC144206-A1A0-4E65-A1CE-03787DAB7314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC144206-A1A0-4E65-A1CE-03787DAB7314}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D9AC0C4-A79E-4162-B7C8-82C609AAE9B4}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C64B29E4-C470-41F5-8F2F-3CFC50CB7F6A} = {451ECD84-2A83-4878-9B69-E9E98149082A}
+		{2AED78BC-2E31-4EBC-992F-0050E3272401} = {451ECD84-2A83-4878-9B69-E9E98149082A}
+		{BC144206-A1A0-4E65-A1CE-03787DAB7314} = {451ECD84-2A83-4878-9B69-E9E98149082A}
 	EndGlobalSection
 EndGlobal

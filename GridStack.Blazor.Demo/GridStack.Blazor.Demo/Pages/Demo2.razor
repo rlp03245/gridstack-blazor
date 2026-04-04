@@ -1,5 +1,6 @@
 @page "/demo2"
-@using GridStack.Blazor.Demo.Client.Components
+@using GridStack.Blazor.Demo.Components
+@using Microsoft.AspNetCore.Components.Web
 
 <PageTitle>Demo 2: Runtime Markup Components</PageTitle>
 
@@ -53,7 +54,7 @@
         public bool IsAdded { get; set; }
     }
 
-    private readonly List<WidgetHolder> _widgets = new();
+    private readonly List<WidgetHolder> _widgets = [];
 
     private readonly GsGridOptions _gsGridOptions = new()
     {

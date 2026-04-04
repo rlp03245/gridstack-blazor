@@ -8,7 +8,7 @@ builder.Services.AddRazorComponents()
     .AddCircuitOptions(options =>
     {
         options.DetailedErrors = true;
-    }); ;
+    });
 
 var app = builder.Build();
 
@@ -27,6 +27,6 @@ app.UseAntiforgery();
 app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode()
-    .AddAdditionalAssemblies(typeof(GridStack.Blazor.Demo.Client._Imports).Assembly); ;
+    .AddAdditionalAssemblies(typeof(GridStack.Blazor.Demo.Assembly).Assembly);
 
 app.Run();

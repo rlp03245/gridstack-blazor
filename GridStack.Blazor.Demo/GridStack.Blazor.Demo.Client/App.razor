@@ -1,6 +1,7 @@
-﻿@using GridStack.Blazor.Demo.Client.Layout
+﻿@using GridStack.Blazor.Demo.Layout
 
-<Router AppAssembly="@typeof(Program).Assembly">
+<Router AppAssembly="@typeof(Program).Assembly" 
+        AdditionalAssemblies="new []{ typeof(Assembly).Assembly}">
     <Found Context="routeData">
         <RouteView RouteData="routeData" DefaultLayout="@typeof(MainLayout)"/>
         <FocusOnNavigate RouteData="routeData" Selector="h1"/>

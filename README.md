@@ -34,7 +34,6 @@ Copy the relevant files over from the `node_modules/gridstack/dist` to your Blaz
 ```bash
 wwwroot/lib/gridstack-all.js
 wwwroot/lib/gridstack.min.css
-wwwroot/lib/gridstack-extra.min.css
 ```
 
 Add the following lines in `wwwroot/index.html`
@@ -43,16 +42,12 @@ Add the following lines in `wwwroot/index.html`
 <head>
     ...
     <link href="lib/gridstack.min.css" rel="stylesheet" />
-    <link href="lib/gridstack-extra.min.css" rel="stylesheet" />
 </head>
 <body>
     ...
     <script src="lib/gridstack-all.js"></script>
 </body>
 ```
-
-Note that the `gridstack-extra.min.css` file is only needed if you intend to change the default number
-of grid columns from 12 to a lower value.
 
 ### Imports
 
@@ -79,6 +74,3 @@ using the GsGrid API.
 
 The [demo project](https://github.com/itemzen/gridstack-blazor/tree/main/GridStack.Blazor.Demo) contains additional details.
 
-## Acknowledgements
-
-Brought to you by the [itemzen](https://itemzen.com) team, with contributions from: [@cxjke](https://github.com/cxjke)
